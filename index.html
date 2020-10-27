@@ -68,7 +68,11 @@
 
       <!-- Masthead Subheading -->
       <p class="masthead-subheading font-weight-light mb-0">Game Developer - Tools Programmer - CG Programmer</p>
-
+	  <div class="divider-custom divider-light">
+	  </div>
+	  <a href="https://www.youracclaim.com/badges/35ee128e-a059-42f3-84da-2f9c64f313df" target="_blank">
+		<img class="masthead-avatar" src="img/Cert.png" alt="">
+	  </a>
     </div>
   </header>
 
@@ -93,9 +97,9 @@
             <div class="col-xs-10 col-md-10 col-xl-10">
                 <ul class="nav nav-tabs nav-pills nav-fill " role="tablist">
                     <li class="nav-item"> <a class="active nav-link" id="nav-tools-tab" data-toggle="tab" href="#nav-tools" role="tab" aria-controls="nav-tools" aria-selected="true">Tools, Assets &amp; Libraries</a> </li>
+                    <li class="nav-item"> <a class="nav-link" id="nav-professional-tab" data-toggle="tab" href="#nav-professional" role="tab" aria-controls="nav-professional" aria-selected="false">Professional Projects</a> </li>
                     <li class="nav-item"> <a class="nav-link" id="nav-indie-tab" data-toggle="tab" href="#nav-indie" role="tab" aria-controls="nav-indie" aria-selected="false">Indie Games</a> </li>
                     <li class="nav-item"> <a class="nav-link" id="nav-freelance-tab" data-toggle="tab" href="#nav-freelance" role="tab" aria-controls="nav-freelance" aria-selected="false">Freelance Projects</a> </li>
-                    <li class="nav-item"> <a class="nav-link" id="nav-professional-tab" data-toggle="tab" href="#nav-professional" role="tab" aria-controls="nav-professional" aria-selected="false">Professional Projects</a> </li>
                     <li class="nav-item"> <a class="nav-link" id="nav-articles-tab" data-toggle="tab" href="#nav-articles" role="tab" aria-controls="nav-articles" aria-selected="false">Articles &amp; Tutorials</a> </li>
                 </ul>
                 <div class="tab-content py-4 px-3 px-sm-0" id="nav-tabContent">
@@ -180,6 +184,23 @@
                             <!-- Portfolio Item 6 -->
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class=" bg-white rounded shadow-sm">
+                                    <img src="img/portfolio/ACP.png" alt="" class="img-fluid card-img-top">
+                                    <div class="p-3 d-block">
+                                        <h5>
+                                            <a class="text-dark d-block text-truncate stretched-link"
+                                               data-toggle="modal" href="#modalACP">ACP Color Picker</a>
+                                        </h5>
+                                        <p class="d-block text-truncate small text-muted mb-0">Intuitive color picker for unity UGUI</p>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Unity</div>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">2D</div>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Color Theory</div>
+                                    </div>
+                                </div>
+                            </div>
+
+							<!-- Portfolio Item 7 -->
+                            <div class="col-lg-4 col-md-6 mb-4">
+                                <div class=" bg-white rounded shadow-sm">
                                     <img src="img/portfolio/functionParser.png" alt="" class="img-fluid card-img-top">
                                     <div class="p-3 d-block">
                                         <h5>
@@ -253,18 +274,21 @@
                     <div class="tab-pane fade" id="nav-freelance" role="tabpanel" aria-labelledby="nav-freelance-tab">
                         <div class="row">
                             <!-- Portfolio Item 1 -->
-                            <!--<div class="col-md-6 col-lg-4">
-                                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#modalPointCloud">
-                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                        <div class="portfolio-item-caption-content text-center text-white">
-                                            <i class="fas fa-2x">Point Cloud Viewer</i>
-                                        </div>
+							<div class="col-lg-4 col-md-6 mb-4">
+                                <div class=" bg-white rounded shadow-sm">
+                                    <img src="img/portfolio/e-robot.png" alt="" class="img-fluid card-img-top">
+                                    <div class="p-3 d-block">
+                                        <h5> <a class="text-dark d-block text-truncate stretched-link" data-toggle="modal" href="#modalErobot">E-Robot</a></h5>
+                                        <p class="d-block text-truncate small text-muted mb-0">Educational robotics system</p>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">.NET</div>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Windows Forms</div>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Tooling</div>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Embeded</div>
                                     </div>
-                                    <img class="img-fluid" src="img/portfolio/pointCloud.png" alt="">
-                                    <p class=" text-center  mb-0">Point Cloud Viewer</p>
-
                                 </div>
-                            </div>-->
+                            </div>
+                            
+                            <!-- Portfolio Item 2 -->
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class=" bg-white rounded shadow-sm">
                                     <img src="img/portfolio/pointCloud.png" alt="" class="img-fluid card-img-top">
@@ -274,19 +298,6 @@
                                         <div class="badge badge-primary px-2 rounded-pill font-weight-normal">OpenGL</div>
                                         <div class="badge badge-primary px-2 rounded-pill font-weight-normal">C#</div>
                                         <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Data Visualization</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Portfolio Item 2 -->
-                            <div class="col-lg-4 col-md-6 mb-4">
-                                <div class=" bg-white rounded shadow-sm">
-                                    <img src="img/portfolio/e-robot.png" alt="" class="img-fluid card-img-top">
-                                    <div class="p-3 d-block">
-                                        <h5> <a class="text-dark d-block text-truncate stretched-link" data-toggle="modal" href="#modalErobot">E-Robot</a></h5>
-                                        <p class="d-block text-truncate small text-muted mb-0">Educational robotics system</p>
-                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">.NET</div>
-                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Windows Forms</div>
-                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Embeded</div>
                                     </div>
                                 </div>
                             </div>
@@ -315,10 +326,9 @@
                                   <div class=" bg-white rounded shadow-sm">
                                       <img src="img/portfolio/coloringApp.png" alt="" class="img-fluid card-img-top">
                                       <div class="p-3 d-block">
-                                          <h5> <a class="text-dark d-block text-truncate stretched-link" data-toggle="modal" href="#modalColoringApp">Coloring Mobile Game</a></h5>
-                                          <p class="d-block text-truncate small text-muted mb-0">Coloring App for Android and IOS</p>
+                                          <h5> <a class="text-dark d-block text-truncate stretched-link" data-toggle="modal" href="#modalColoringApp">Mindstagram</a></h5>
+                                          <p class="d-block text-truncate small text-muted mb-0">Drawing, coloring and meditation app</p>
                                           <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Unity</div>
-                                          <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Texturing</div>
                                           <div class="badge badge-primary px-2 rounded-pill font-weight-normal">IOS</div>
                                           <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Android</div>
                                       </div>
@@ -463,6 +473,19 @@
                             </div>-->
                             <div class="col-lg-4 col-md-6 mb-4">
                                 <div class=" bg-white rounded shadow-sm">
+                                    <img src="img/portfolio/GammaCorrection.png" alt="" class="img-fluid card-img-top">
+                                    <div class="p-3 d-block">
+                                        <h5> <a class="text-dark d-block text-truncate stretched-link" data-toggle="modal" href="#modalGammaCorrection">Shader-Based Gamma Correction</a></h5>
+                                        <p class="d-block text-truncate small text-muted mb-0">Appying shader-based gamma correction in URP template</p>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Computer Graphics</div>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Unity</div>
+                                        <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Shaders</div>
+                                    </div>
+                                </div>
+                            </div>  
+							
+							 <div class="col-lg-4 col-md-6 mb-4">
+                                <div class=" bg-white rounded shadow-sm">
                                     <img src="img/portfolio/CrossSectionShaderGraph.png" alt="" class="img-fluid card-img-top">
                                     <div class="p-3 d-block">
                                         <h5> <a class="text-dark d-block text-truncate stretched-link" data-toggle="modal" href="#modalShaderGraphTutorial">ShaderGraph Case Study #1</a></h5>
@@ -472,7 +495,7 @@
                                         <div class="badge badge-primary px-2 rounded-pill font-weight-normal">Shaders</div>
                                     </div>
                                 </div>
-                            </div>   
+                            </div>  
                             <!-- Portfolio Item 3 -->
                             <!--<div class="col-md-6 col-lg-4">
                                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal12">
@@ -515,7 +538,7 @@
     <div class="container">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -530,11 +553,17 @@
       <div class="row">
         <div class="col-lg-4 ml-auto">
             <!--<p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>-->
-          <p class="lead">A creative coding ADDICT who is passionate about creating astonishing visuals and handy tools.<br />A compuater graphics enthusiast and professional game developer.<br />Fast learner, loves research and exploring new technologies.</p>
+          <p class="lead">
+		  • Unity certified expert programmer<br />
+		  • A computer graphics enthusiast, passionate about creating astonishing visuals and high fidelity games<br />
+		  • A professional game developer and game tools programmer</p>
         </div>
         <div class="col-lg-4 mr-auto">
             <!--<p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>-->
-          <p class="lead">Have a good knowldge in Computer Graphics, Math, and Game Development.<br />Highly skilled in OpenGL, C++, Unity, C#, and .NET</p>
+          <p class="lead">
+		  • Fast learner, love research and exploring new technologies<br />
+		  • Have good knowledge in Computer Graphics, Math, and Game Development<br />
+		  • Highly skilled in OpenGL, C++, Unity, C#, and .NET</p>
         </div>
       </div>
 
@@ -700,7 +729,7 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/bookPro.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                  <p class="mb-3"><a href="#">Book - Page Curl Pro</a> is a Unity3d asset that can help you to create a book with page curling effect using Unity3d native GUI system (UGUI). The asset supports different Canvas modes, transparent pages and adding UI elements in pages</p>
+                  <p class="mb-3"><a href="https://assetstore.unity.com/packages/tools/gui/book-page-curl-pro-77222" target="_blank">Book - Page Curl Pro</a> is a Unity3d asset that can help you to create a book with page curling effect using Unity3d native GUI system (UGUI). The asset supports different Canvas modes, transparent pages and adding UI elements in pages</p>
                   <p class="mb-3"><a href="http://www.cheesegames.net/games/1100/index.php?gameDataId=1100/" target="_blank">Live WebGL Demo</a> </p>
                   <p class="mb-3">The Pro version is much more harder to configure than the free version, if you don't need the extra features in the pro version just download the free version <a href="http://u3d.as/odF" target="_blank">Here</a> </p>
                   <div class="embed-responsive embed-responsive-16by9 mb-5">
@@ -1051,10 +1080,10 @@
                                         </ol>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img class="img-fluid rounded" src="img/portfolio/e-robot.png" alt="coloringApp1">
+                                                <img class="img-fluid rounded" src="img/portfolio/e-robot.png" alt="Erobot">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="img-fluid rounded " src="img/portfolio/e-robot2.png" alt="coloringApp2">
+                                                <img class="img-fluid rounded " src="img/portfolio/e-robot2.png" alt="Erobot">
                                             </div>
                                         </div>
                                         <a data-slide="prev" href="#gallery-carousel-erobot" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
@@ -1151,7 +1180,7 @@
         </div>
     </div>
 
-    <!--ColoringApp Modal-->
+    <!--Mindstagram Modal-->
     <div class="portfolio-modal modal fade" id="modalColoringApp" tabindex="-1" role="dialog" aria-labelledby="modalColoringAppLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
@@ -1165,7 +1194,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title -->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mobile Coloring Game</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mindstagram</h2>
                                 <!-- Icon Divider -->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -1181,16 +1210,24 @@
                                             <li data-target="#gallery-carousel-coloring" data-slide-to="0" class="active"></li>
                                             <li data-target="#gallery-carousel-coloring" data-slide-to="1"></li>
                                             <li data-target="#gallery-carousel-coloring" data-slide-to="2"></li>
+                                            <li data-target="#gallery-carousel-coloring" data-slide-to="3"></li>
+                                            <li data-target="#gallery-carousel-coloring" data-slide-to="4"></li>
                                         </ol>
                                         <div class="carousel-inner">
                                             <div class="carousel-item active">
-                                                <img class="img-fluid rounded" src="img/portfolio/coloringApp1.png" alt="coloringApp1">
+                                                <img class="img-fluid rounded" src="img/portfolio/coloringApp1.jpg" alt="coloringApp1">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="img-fluid rounded " src="img/portfolio/coloringApp2.png" alt="coloringApp2">
+                                                <img class="img-fluid rounded " src="img/portfolio/coloringApp2.jpg" alt="coloringApp2">
                                             </div>
                                             <div class="carousel-item">
-                                                <img class="img-fluid rounded " src="img/portfolio/coloringApp3.png" alt="coloringApp3">
+                                                <img class="img-fluid rounded " src="img/portfolio/coloringApp3.jpg" alt="coloringApp3">
+                                            </div>
+											<div class="carousel-item">
+                                                <img class="img-fluid rounded " src="img/portfolio/coloringApp4.jpg" alt="coloringApp4">
+                                            </div>
+											<div class="carousel-item">
+                                                <img class="img-fluid rounded " src="img/portfolio/coloringApp5.jpg" alt="coloringApp5">
                                             </div>
                                         </div>
                                         <a data-slide="prev" href="#gallery-carousel-coloring" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
@@ -1202,9 +1239,13 @@
 
 
                                 <!-- Portfolio Modal - Text -->
-                                <p class="mb-5"> A Mobile coloring game that has been developed in Unity, in which we had to optimize the coloring algorithms to achieve a realtime texture modifying, in the app the user can fill colors smoothly within a region, zoom In/Out, Undo/Redo, save colored images and load images from mobile storage</p>
+                                <p class="mb-5 text-left"><b> A Mobile app features:</b><br />
+								 • Drawing new images <br />
+								 • Coloring images drawed in app or load external images to color it<br />
+								 • Meditation by running relaxing music or loading your own music <br />
+								</p>
                                 <div class="embed-responsive embed-responsive-16by9 mb-5">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z23BzVe6fAA"></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/a-ntg2FXFo4"></iframe>
                                 </div>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
@@ -1264,6 +1305,78 @@
             </div>
         </div>
     </div>
+
+	<!-- Portfolio Modal ACP -->
+    <div class="portfolio-modal modal fade" id="modalACP" tabindex="-1" role="dialog" aria-labelledby="modalACPLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Another Color Picker (ACP)</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                               <!-- Portfolio Modal - Images -->
+                                <div class='row mb-5'>
+                                    <div id="gallery-carousel-coloring" class="carousel slide " data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#gallery-carousel-coloring" data-slide-to="0" class="active"></li>
+                                            <li data-target="#gallery-carousel-coloring" data-slide-to="1"></li>
+                                            <li data-target="#gallery-carousel-coloring" data-slide-to="2"></li>
+                                            <li data-target="#gallery-carousel-coloring" data-slide-to="3"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="img-fluid rounded" src="img/portfolio/ACP1.png" alt="Another Color Picker Screenshot">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid rounded " src="img/portfolio/ACP2.png" alt="Another Color Picker Screenshot">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid rounded " src="img/portfolio/ACP3.png" alt="Another Color Picker Screenshot">
+                                            </div>
+											<div class="carousel-item">
+                                                <img class="img-fluid rounded " src="img/portfolio/ACP4.png" alt="Another Color Picker Screenshot">
+                                            </div>
+                                        </div>
+                                        <a data-slide="prev" href="#gallery-carousel-coloring" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
+                                        <a data-slide="next" href="#gallery-carousel-coloring" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+                                    </div>
+
+                                </div>
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">
+								ACP is intuitive, shader based, and very customizable color picker for Unity UGUI <br/>
+								Find the asset on <a href="https://assetstore.unity.com/packages/tools/gui/another-color-picker-123123" target="_blank">Asset Store</a>.
+								</p>
+                                 <div class="embed-responsive embed-responsive-16by9 mb-5">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/a-ntg2FXFo4"></iframe>
+                                </div>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- VirtualLab Modal -->
     <div class="portfolio-modal modal fade" id="modalVirtualLab" tabindex="-1" role="dialog" aria-labelledby="modalVirtualLabLabel" aria-hidden="true">
@@ -1380,7 +1493,47 @@
                                     <i class="fas fa-times fa-fw"></i>
                                     Close Window
                                 </button>
-</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	 <!--modalGammaCorrection-->
+    <div class="portfolio-modal modal fade" id="modalGammaCorrection" tabindex="-1" role="dialog" aria-labelledby="modalGammaCorrectionLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-2">Shader-based Gamma Correction in UPR template</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="img/portfolio/GammaCorrection.png" alt="GammaCorrection">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5 ">In this article I'm discussing the difference between gamma and linear rendering, and how to apply gamma correction in shader to get a linear rendering result while working with unity gamma space</p>
+                                <p class="mb-5 "><a target="_blank" href="https://medium.com/@abdulla.aldandarawy/unity-always-be-linear-1a30db4765db">Read the full article here</a></p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+							</div>
                         </div>
                     </div>
                 </div>
