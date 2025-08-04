@@ -1,6 +1,19 @@
+# Disable Jekyll processing
+plugins: []
+markdown: kramdown
+highlighter: none
+
+# Include all Unity WebGL files
 include:
+  - "Build/"
+  - "TemplateData/"
   - "*.wasm"
   - "*.data"
-  - "*.symbols.json"
+  - "*.js"
 
-plugins: []
+# Ensure proper serving
+defaults:
+  - scope:
+      path: "Build"
+    values:
+      layout: null
