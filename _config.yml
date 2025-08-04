@@ -1,0 +1,6 @@
+include:
+  - "*.wasm"
+  - "*.data"
+  - "*.symbols.json"
+
+plugins: []
